@@ -12,7 +12,7 @@ const Hero = () => {
             <div className="grid place-items-center grid-cols-1
                             sm:grid-cols-2">
                 <div
-                data-aos="flip-left"
+                data-aos="slide-left"
                 data-aos-duration="1500"
                 className="order-1 sm:order-2"> 
                     <img src={biCycle}
