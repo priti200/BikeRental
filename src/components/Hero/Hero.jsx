@@ -13,7 +13,7 @@ const Hero = () => {
                             sm:grid-cols-2">
                 <div
                 data-aos="slide-left"
-                data-aos-duration="1500"
+                data-aos-duration="800"
                 className="order-1 sm:order-2"> 
                     <img src={biCycle}
                         className="
