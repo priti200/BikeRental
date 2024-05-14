@@ -9,7 +9,7 @@ const CarListData = [
     name: "BiCycle-1",
     price: 100,
     image: bicycle1,
-    aosDelay: "0",
+    aosDelay: "1000",
   },
   {
     name: "BiCycle-2",
@@ -21,7 +21,7 @@ const CarListData = [
     name: "BiCycle-3",
     price: 200,
     image: bicycle3,
-    aosDelay: "1000",
+    aosDelay: "0",
   },
 ]
 
@@ -77,7 +77,7 @@ const CarList = () => {
              {/* End of car listing */}
       <div className="grid place-content-center mt-8">
       <button
-                      //  data-aos="fade-up"
+                       data-aos="slide-up"
                     className="button-outline">
                         Get Started
                     </button>

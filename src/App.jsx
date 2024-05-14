@@ -6,6 +6,8 @@ import Services from './components/Services/Services';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import CarList from './components/BiCycleListing/BiCycleListing';
+import Testimonial from './components/Testimonial/Testimonial';
+import AppStoreBanner from './components/AppStoreBanner/AppStoreBanner';
 
 const App = () => {
 
@@ -46,6 +48,8 @@ const App = () => {
        <About />
        <Services />
        <CarList />
+       <Testimonial />
+       <AppStoreBanner />
     </div>
   )
 }
