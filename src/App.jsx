@@ -8,7 +8,7 @@ import 'aos/dist/aos.css';
 import CarList from './components/BiCycleListing/BiCycleListing';
 import Testimonial from './components/Testimonial/Testimonial';
 import AppStoreBanner from './components/AppStoreBanner/AppStoreBanner';
-
+import Contact from './components/Contact/Contact';
 const App = () => {
 
   // Dark Mode Features 
@@ -51,6 +51,7 @@ const App = () => {
        <CarList />
        <Testimonial />
        <AppStoreBanner />
+       <Contact />
     </div>
   )
 }
